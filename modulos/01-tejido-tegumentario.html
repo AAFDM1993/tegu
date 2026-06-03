@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 01 — Tejido Tegumentario</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">Tegumentario<span>·Fisiо</span></div>
+    <nav class="breadcrumb">
+      <a href="../index.html">Inicio</a>
+      <span class="sep">›</span>
+      <span class="current">Módulo 01 — Tejido Tegumentario</span>
+    </nav>
+    <a href="../index.html" class="btn-back">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Volver
+    </a>
+  </header>
+
+  <main class="module-layout">
+
+    <div class="module-header">
+      <span class="module-badge badge-1">Módulo 01</span>
+      <h1>Tejido Tegumentario</h1>
+      <p class="module-desc">Anatomía, fisiología y regulación del sistema cutáneo en el contexto de la práctica fisioterapéutica avanzada.</p>
+    </div>
+
+    <div class="tabs-container" id="tabs-main">
+      <div class="tabs-nav">
+        <button class="tab-btn active">Sistema Cutáneo</button>
+        <button class="tab-btn">Vello</button>
+        <button class="tab-btn">Regeneración Epidérmica y Dérmica</button>
+        <button class="tab-btn">Vasos Sanguíneos</button>
+        <button class="tab-btn">Vasos Linfáticos</button>
+        <button class="tab-btn">Receptores Cutáneos</button>
+      </div>
+
+      <!-- ===== PESTAÑA 1: Sistema Cutáneo ===== -->
+      <div class="tab-panel active">
+        <h2>Sistema Cutáneo</h2>
+        <p>El sistema cutáneo es el órgano más extenso del cuerpo humano (~1,8 m² en adulto), con un peso aproximado de 4–5 kg. Actúa como interfaz dinámica entre el organismo y el ambiente externo, cumpliendo funciones de barrera, termorregulación, inmunidad, percepción sensorial y síntesis de vitamina D.</p>
+
+        <p><strong>Haz clic en cada capa del diagrama</strong> para ver su descripción clínica detallada.</p>
+
+        <div class="skin-diagram-wrapper">
+          <div class="skin-svg-container">
+            <svg viewBox="0 0 260 340" xmlns="http://www.w3.org/2000/svg" aria-label="Diagrama de capas de la piel">
+              <!-- Hipodermis -->
+              <rect class="skin-layer" data-layer="hypodermis" x="10" y="255" width="240" height="70" rx="6" fill="#f5d89e" stroke="#d4a843" stroke-width="1.2"/>
+              <text class="layer-label" x="130" y="294" text-anchor="middle" font-weight="600">Hipodermis</text>
+              <text class="layer-label" x="130" y="308" text-anchor="middle" font-size="9" fill="#888">(tejido subcutáneo)</text>
+              <!-- Adipocitos schematic -->
+              <ellipse cx="50" cy="285" rx="14" ry="10" fill="#f0c060" stroke="#c99020" stroke-width="0.7" opacity="0.7"/>
+              <ellipse cx="80" cy="280" rx="12" ry="9" fill="#f0c060" stroke="#c99020" stroke-width="0.7" opacity="0.7"/>
+              <ellipse cx="108" cy="287" rx="13" ry="9" fill="#f0c060" stroke="#c99020" stroke-width="0.7" opacity="0.7"/>
+              <ellipse cx="170" cy="283" rx="11" ry="8" fill="#f0c060" stroke="#c99020" stroke-width="0.7" opacity="0.7"/>
+              <ellipse cx="198" cy="278" rx="13" ry="10" fill="#f0c060" stroke="#c99020" stroke-width="0.7" opacity="0.7"/>
+              <ellipse cx="225" cy="287" rx="12" ry="8" fill="#f0c060" stroke="#c99020" stroke-width="0.7" opacity="0.7"/>
+
+              <!-- Dermis reticular -->
+              <rect class="skin-layer" data-layer="dermis-ret" x="10" y="150" width="240" height="105" rx="4" fill="#f4a8a0" stroke="#c0534a" stroke-width="1.2"/>
+              <text class="layer-label" x="130" y="205" text-anchor="middle" font-weight="600">Dermis reticular</text>
+              <!-- Fibras colágenas schematic -->
+              <line x1="25" y1="165" x2="80" y2="175" stroke="#b85550" stroke-width="1.2" opacity="0.5"/>
+              <line x1="75" y1="162" x2="130" y2="172" stroke="#b85550" stroke-width="1.2" opacity="0.5"/>
+              <line x1="125" y1="165" x2="180" y2="175" stroke="#b85550" stroke-width="1.2" opacity="0.5"/>
+              <line x1="175" y1="162" x2="235" y2="172" stroke="#b85550" stroke-width="1.2" opacity="0.5"/>
+              <line x1="25" y1="185" x2="90" y2="195" stroke="#b85550" stroke-width="1" opacity="0.4"/>
+              <line x1="85" y1="182" x2="150" y2="192" stroke="#b85550" stroke-width="1" opacity="0.4"/>
+              <line x1="145" y1="185" x2="210" y2="195" stroke="#b85550" stroke-width="1" opacity="0.4"/>
+              <!-- Folículo piloso schematic -->
+              <ellipse cx="70" cy="240" rx="8" ry="14" fill="#d47070" stroke="#a03030" stroke-width="0.8" opacity="0.6"/>
+              <ellipse cx="160" cy="235" rx="7" ry="12" fill="#d47070" stroke="#a03030" stroke-width="0.8" opacity="0.6"/>
+
+              <!-- Dermis papilar -->
+              <rect class="skin-layer" data-layer="dermis-pap" x="10" y="110" width="240" height="40" rx="3" fill="#f7c4c0" stroke="#d07070" stroke-width="1.2"/>
+              <text class="layer-label" x="130" y="134" text-anchor="middle" font-weight="600">Dermis papilar</text>
+              <!-- Papilas dérmicas -->
+              <path d="M 30 110 Q 40 100 50 110 Q 60 100 70 110 Q 80 100 90 110 Q 100 100 110 110 Q 120 100 130 110 Q 140 100 150 110 Q 160 100 170 110 Q 180 100 190 110 Q 200 100 210 110 Q 220 100 230 110" fill="none" stroke="#c06060" stroke-width="1.2" opacity="0.7"/>
+
+              <!-- Epidermis -->
+              <rect class="skin-layer" data-layer="epidermis" x="10" y="55" width="240" height="55" rx="3" fill="#ffe0a8" stroke="#c4973a" stroke-width="1.2"/>
+              <text class="layer-label" x="130" y="86" text-anchor="middle" font-weight="600">Epidermis</text>
+              <text class="layer-label" x="130" y="100" text-anchor="middle" font-size="9" fill="#888">(estratos espinoso, granuloso, basal)</text>
+
+              <!-- Estrato córneo -->
+              <rect class="skin-layer" data-layer="stratum-corneum" x="10" y="10" width="240" height="45" rx="3" fill="#faf0d0" stroke="#c4b080" stroke-width="1.2"/>
+              <text class="layer-label" x="130" y="35" text-anchor="middle" font-weight="600">Estrato córneo</text>
+              <!-- Corneocitos schematic -->
+              <rect x="25" y="15" width="22" height="8" rx="2" fill="#e8d898" stroke="#b8a060" stroke-width="0.7" opacity="0.7"/>
+              <rect x="52" y="15" width="22" height="8" rx="2" fill="#e8d898" stroke="#b8a060" stroke-width="0.7" opacity="0.7"/>
+              <rect x="79" y="15" width="22" height="8" rx="2" fill="#e8d898" stroke="#b8a060" stroke-width="0.7" opacity="0.7"/>
+              <rect x="106" y="15" width="22" height="8" rx="2" fill="#e8d898" stroke="#b8a060" stroke-width="0.7" opacity="0.7"/>
+              <rect x="133" y="15" width="22" height="8" rx="2" fill="#e8d898" stroke="#b8a060" stroke-width="0.7" opacity="0.7"/>
+              <rect x="160" y="15" width="22" height="8" rx="2" fill="#e8d898" stroke="#b8a060" stroke-width="0.7" opacity="0.7"/>
+              <rect x="187" y="15" width="22" height="8" rx="2" fill="#e8d898" stroke="#b8a060" stroke-width="0.7" opacity="0.7"/>
+              <rect x="214" y="15" width="22" height="8" rx="2" fill="#e8d898" stroke="#b8a060" stroke-width="0.7" opacity="0.7"/>
+
+              <!-- Indicador interactivo -->
+              <text x="130" y="352" text-anchor="middle" font-size="9.5" fill="#999" font-family="sans-serif">↑ Clic en cada capa para ver detalles</text>
+            </svg>
+          </div>
+
+          <div class="skin-info-panel" id="skin-info-panel">
+            <div class="hint">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+              Selecciona una capa en el diagrama para ver su descripción clínica.
+            </div>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <h3>Funciones principales del sistema cutáneo</h3>
+          <div class="two-col">
+            <div>
+              <div class="info-block">
+                <h4>Función barrera</h4>
+                <p>Previene la pérdida transepidérmica de agua (PTEA) y la penetración de agentes externos. Depende de la integridad del estrato córneo y su matriz lipídica intercelular.</p>
+              </div>
+              <div class="info-block accent">
+                <h4>Termorregulación</h4>
+                <p>Control de la temperatura corporal mediante vasomotricidad cutánea y sudoración ecrina. La piel disipa hasta el 85% del calor metabólico en reposo.</p>
+              </div>
+            </div>
+            <div>
+              <div class="info-block">
+                <h4>Inmunidad cutánea</h4>
+                <p>Las células de Langerhans (epidermis) y los macrófagos dérmicos actúan como centinelas inmunológicos. El microbioma cutáneo completa la defensa de primera línea.</p>
+              </div>
+              <div class="info-block accent">
+                <h4>Síntesis de vitamina D</h4>
+                <p>Los queratinocitos convierten el 7-dehidrocolesterol en previtamina D₃ bajo radiación UVB. Relevante en el manejo de pacientes encamados o con escasa exposición solar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== PESTAÑA 2: Vello ===== -->
+      <div class="tab-panel">
+        <h2>Vello — Unidad Pilosebácea</h2>
+        <p>La unidad pilosebácea está compuesta por el folículo piloso, la glándula sebácea, la glándula sudorípara apocrina (en zonas específicas) y el músculo erector del pelo. Es una estructura dinámica con ciclos de crecimiento propios.</p>
+
+        <div class="content-card">
+          <h3>Ciclo folicular</h3>
+          <table class="clinical-table">
+            <thead>
+              <tr>
+                <th>Fase</th>
+                <th>Duración</th>
+                <th>Características</th>
+                <th>Relevancia clínica</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Anágena</strong> (crecimiento)</td>
+                <td>2–7 años</td>
+                <td>Alta actividad mitótica en la matriz folicular. El pelo crece ~1 cm/mes.</td>
+                <td>El 85–90% de los folículos se encuentra en esta fase. Alterada en quimioterapia y estados de déficit nutricional severo.</td>
+              </tr>
+              <tr>
+                <td><strong>Catágena</strong> (regresión)</td>
+                <td>2–3 semanas</td>
+                <td>Apoptosis de queratinocitos de la matriz. Detención del crecimiento y retracción del folículo.</td>
+                <td>Fase transitoria breve; difícil de identificar clínicamente.</td>
+              </tr>
+              <tr>
+                <td><strong>Telógena</strong> (reposo)</td>
+                <td>3–4 meses</td>
+                <td>Folículo en reposo. Caída del pelo club. 10–15% de folículos en esta fase.</td>
+                <td>El efluvio telógeno (caída difusa) ocurre cuando un estímulo estresante (cirugía mayor, trauma, enfermedad sistémica) sincroniza folículos en esta fase.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-card">
+          <h3>Glándula sebácea</h3>
+          <p>Glándula holocrina que secreta sebo (mezcla de triglicéridos, ácidos grasos, escualeno y colesterol). El sebo emulsificado con el sudor ecino forma el manto lipídico ácido de la superficie cutánea (pH 4,5–5,5), esencial para la regulación de la microbiota comensal y la función barrera.</p>
+          <div class="info-block warning">
+            <h4>Implicación en cicatrices y quemaduras</h4>
+            <p>La destrucción de la unidad pilosebácea en quemaduras de segundo grado profundo y tercer grado elimina la fuente principal de queratinocitos para la re-epitelización. El pronóstico de cicatrización depende directamente de la densidad folicular residual en el área afectada.</p>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <h3>Músculo erector del pelo (arrector pili)</h3>
+          <p>Músculo liso de inervación simpática adrenérgica. Su contracción produce la "piel de gallina" (piloerección), reflejando un mecanismo ancestral de aislamiento térmico y señalización. En fisioterapia, la evaluación de la respuesta piloerectora puede ser un indicador indirecto de la integridad del sistema nervioso autónomo en el segmento explorado.</p>
+        </div>
+      </div>
+
+      <!-- ===== PESTAÑA 3: Regeneración ===== -->
+      <div class="tab-panel">
+        <h2>Proceso de Regeneración de la Epidermis y la Dermis</h2>
+        <p>La regeneración cutánea es un proceso secuencial y solapado que implica cuatro fases moleculares y celulares. Su comprensión es la base del razonamiento clínico en cicatrices, úlceras y procedimientos quirúrgicos.</p>
+
+        <div class="content-card">
+          <h3>Fases de cicatrización</h3>
+          <table class="clinical-table">
+            <thead>
+              <tr><th>Fase</th><th>Cronología</th><th>Eventos clave</th><th>Implicación terapéutica</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Hemostasia</strong></td>
+                <td>0–minutos</td>
+                <td>Vasoconstricción refleja, agregación plaquetaria, formación del tapón de fibrina. Liberación de factores de crecimiento (PDGF, TGF-β).</td>
+                <td>Respetarla: la compresión temprana inadecuada puede comprometer el coágulo inicial.</td>
+              </tr>
+              <tr>
+                <td><strong>Inflamatoria</strong></td>
+                <td>Días 1–5</td>
+                <td>Vasodilatación, edema, migración de neutrófilos (días 1–2) y macrófagos M1 (días 2–5). Desbridamiento y señalización para la reparación.</td>
+                <td>La fisioterapia no interfiere agresivamente en esta fase. Se prioriza el control del edema (elevación, compresión suave si indicada).</td>
+              </tr>
+              <tr>
+                <td><strong>Proliferativa</strong></td>
+                <td>Días 5–21</td>
+                <td>Angiogénesis, fibroplasia (fibroblastos → miofibroblastos), síntesis de colágeno tipo III, re-epitelización desde los bordes y folículos pilosos.</td>
+                <td>Inicio de movilización precoz del tejido cicatricial, masaje cicatricial suave (a partir del cierre completo), prevención de retracción.</td>
+              </tr>
+              <tr>
+                <td><strong>Remodelación</strong></td>
+                <td>Semanas 3 – 2 años</td>
+                <td>Sustitución de colágeno III por colágeno I, cross-linking, maduración de la cicatriz. Reducción de la celularidad y la vascularización.</td>
+                <td>Masaje transverso profundo, ultrasonido terapéutico, presoterapia, taping. Ventana de máxima plasticidad tisular.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-card">
+          <h3>Regeneración epidérmica</h3>
+          <p>La re-epitelización ocurre por migración centrípeta de queratinocitos desde los márgenes de la herida y desde los folículos pilosos residuales. La velocidad de migración es de ~0,5 mm/día en condiciones óptimas. Requiere un lecho húmedo (cura húmeda), ausencia de infección y sustrato de fibronectina intacto.</p>
+          <div class="info-block accent">
+            <h4>Principio de cura húmeda</h4>
+            <p>La migración de queratinocitos es significativamente más rápida en ambiente húmedo que en seco. Los apósitos oclusivos o semioclusivos mantienen las condiciones óptimas y reducen el dolor, la desecación y la formación de costra (que actúa como barrera física a la migración celular).</p>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <h3>Remodelación dérmica y calidad de la cicatriz</h3>
+          <p>La calidad mecánica de la cicatriz depende de la organización del colágeno dérmico. En la piel sana, las fibras de colágeno forman un entramado en cesta (<em>basket-weave pattern</em>). En la cicatriz madura, las fibras se orientan en haces paralelos con menor resistencia a tensiones multidireccionales.</p>
+          <div class="two-col">
+            <div class="info-block warning">
+              <h4>Cicatriz hipertrófica</h4>
+              <p>Permanece dentro de los márgenes de la herida. Exceso de síntesis de colágeno en la fase proliferativa, mediado por TGF-β1. Alta probabilidad de respuesta a masaje y presoterapia.</p>
+            </div>
+            <div class="info-block danger">
+              <h4>Cicatriz queloide</h4>
+              <p>Crece más allá de los márgenes originales. Base genética (mayor prevalencia en fototipos IV–VI). Menor respuesta a fisioterapia aislada; requiere abordaje multidisciplinar (corticoides intralesionales, láser, cirugía + radioterapia).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== PESTAÑA 4: Vasos Sanguíneos ===== -->
+      <div class="tab-panel">
+        <h2>Vasos Sanguíneos Cutáneos</h2>
+        <p>La vascularización cutánea cumple funciones de nutrición tisular, termorregulación y participación en la respuesta inflamatoria. Su comprensión es esencial en el abordaje de úlceras vasculares, cicatrización y linfedema.</p>
+
+        <div class="content-card">
+          <h3>Organización del sistema vascular cutáneo</h3>
+          <table class="clinical-table">
+            <thead>
+              <tr><th>Plexo / Estructura</th><th>Localización</th><th>Función principal</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Plexo subepidérmico (superficial)</strong></td>
+                <td>Unión dermis papilar–reticular</td>
+                <td>Nutrición epidérmica por difusión. Termorregulación fina. Asas capilares en las papilas dérmicas.</td>
+              </tr>
+              <tr>
+                <td><strong>Plexo profundo (subdérmico)</strong></td>
+                <td>Dermis reticular profunda / hipodermis</td>
+                <td>Distribución regional del flujo. Comunicación con la red vascular subcutánea y muscular.</td>
+              </tr>
+              <tr>
+                <td><strong>Anastomosis arteriovenosas (AV)</strong></td>
+                <td>Yemas, dedos, nariz, labios</td>
+                <td>Regulación de la temperatura corporal mediante el cortocircuito del flujo capilar. Controladas por el sistema nervioso simpático.</td>
+              </tr>
+              <tr>
+                <td><strong>Glomus cutáneo</strong></td>
+                <td>Dermis profunda de extremidades distales</td>
+                <td>Órgano de termorregulación: AV altamente especializada con túnica muscular engrosada.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-card">
+          <h3>Regulación vasomotora cutánea</h3>
+          <p>La vasomotricidad cutánea está regulada por mecanismos neurales (simpático adrenérgico: vasoconstricción; simpático colinérgico: vasodilatación activa en el calor) y locales (liberación de óxido nítrico, prostaglandinas, histamina en respuesta inflamatoria).</p>
+          <div class="info-block">
+            <h4>Relevancia en fisioterapia</h4>
+            <p>Las técnicas manuales (masaje clásico, drenaje linfático manual), el calor y el ejercicio activan la vasodilatación cutánea refleja, incrementando la perfusión local y favoreciendo la resolución del edema y la cicatrización. La crioterapia produce vasoconstricción inicial seguida de vasodilatación de rebote (respuesta de caza de Lewis).</p>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <h3>Evaluación de la perfusión cutánea</h3>
+          <p>Herramientas clínicas utilizadas en fisioterapia avanzada y en trabajo interdisciplinario:</p>
+          <ul>
+            <li><strong>Índice tobillo-brazo (ITB):</strong> diagnóstico de insuficiencia arterial periférica. Contraindicación absoluta de compresión &lt; 0,8.</li>
+            <li><strong>Tiempo de llenado capilar:</strong> evaluación de la microcirculación distal (&gt; 2 seg = compromiso).</li>
+            <li><strong>Temperatura cutánea diferencial:</strong> asimetría &gt; 2°C sugiere compromiso vascular unilateral.</li>
+            <li><strong>Fluxometría Doppler:</strong> cuantificación no invasiva del flujo capilar en úlceras y colgajos.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ===== PESTAÑA 5: Vasos Linfáticos ===== -->
+      <div class="tab-panel">
+        <h2>Vasos Linfáticos Cutáneos</h2>
+        <p>El sistema linfático cutáneo es el primer nivel de drenaje del intersticio dérmico y subcutáneo. Su disfunción da origen al linfedema y complica cuadros de insuficiencia venosa crónica.</p>
+
+        <div class="content-card">
+          <h3>Arquitectura linfática cutánea</h3>
+          <table class="clinical-table">
+            <thead>
+              <tr><th>Estructura</th><th>Características</th><th>Función</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Capilares linfáticos iniciales</strong></td>
+                <td>Ciegos, endotelio discontinuo, sin lámina basal completa. Filamentos de anclaje a la matriz extracelular.</td>
+                <td>Captación de linfa intersticial: proteínas, macrófagos, lípidos (en quilomicrones intestinales), detritus celulares.</td>
+              </tr>
+              <tr>
+                <td><strong>Vasos linfáticos colectores (pre-colectores)</strong></td>
+                <td>Válvulas semilunares cada 6–20 mm. Células musculares lisas en la pared. Unidad linfangión.</td>
+                <td>Transporte activo de linfa hacia los colectores profundos. La musculatura intrínseca genera contracciones peristálticas (8–12 / min en reposo).</td>
+              </tr>
+              <tr>
+                <td><strong>Troncos linfáticos y conducto torácico</strong></td>
+                <td>Mayor calibre, mayor presión. Convergencia en el ángulo venoso (vena subclavia / yugular).</td>
+                <td>Retorno de la linfa a la circulación venosa central.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-card">
+          <h3>Mecanismos de propulsión linfática</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Intrínseco (linfangión)</h4>
+              <p>Contracción autónoma de la musculatura lisa parietal de los vasos colectores, regulada por el sistema nervioso autónomo y mediadores locales (NO, sustancia P, histamina).</p>
+            </div>
+            <div class="info-block accent">
+              <h4>Extrínseco (físico)</h4>
+              <p>Compresión por contracción muscular, pulsación arterial adyacente, movimiento respiratorio (gradiente de presión torácica), presión tisular. Fundamento fisiológico del ejercicio en el tratamiento del linfedema.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-card">
+          <h3>Territorios linfáticos y anastomosis</h3>
+          <p>La piel está dividida en territorios de drenaje linfático (<em>lymphosomes</em>) con fronteras territoriales (<em>watersheds</em>) donde el flujo es mínimo. Las anastomosis dérmicas entre territorios adyacentes son la base fisiológica del <strong>drenaje linfático manual (DLM)</strong>: al estimular el territorio vecino sano, se redirige el flujo desde la zona congestionada a través de estas comunicaciones dérmicas superficiales.</p>
+        </div>
+      </div>
+
+      <!-- ===== PESTAÑA 6: Receptores Cutáneos ===== -->
+      <div class="tab-panel">
+        <h2>Receptores Cutáneos</h2>
+        <p>Los mecanorreceptores, termorreceptores y nociceptores cutáneos constituyen la base sensorial periférica. Su función y su estado de integridad son determinantes en el razonamiento clínico fisioterapéutico, especialmente en dolor crónico, neuropatías y cicatrices.</p>
+
+        <div class="content-card">
+          <h3>Mecanorreceptores táctiles</h3>
+          <table class="clinical-table">
+            <thead>
+              <tr><th>Receptor</th><th>Localización</th><th>Fibra aferente</th><th>Estímulo óptimo</th><th>Función</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Meissner</strong></td>
+                <td>Dermis papilar de piel glabra</td>
+                <td>Aβ (rápida)</td>
+                <td>Toque ligero, vibración 20–50 Hz</td>
+                <td>Discriminación táctil fina, textura</td>
+              </tr>
+              <tr>
+                <td><strong>Merkel</strong></td>
+                <td>Unión dermo-epidérmica</td>
+                <td>Aβ (lenta)</td>
+                <td>Presión sostenida, bordes</td>
+                <td>Percepción de forma y detalles estáticos</td>
+              </tr>
+              <tr>
+                <td><strong>Ruffini</strong></td>
+                <td>Dermis profunda, subcutáneo</td>
+                <td>Aβ (lenta)</td>
+                <td>Estiramiento cutáneo, calor</td>
+                <td>Postura, dirección del movimiento articular</td>
+              </tr>
+              <tr>
+                <td><strong>Pacini</strong></td>
+                <td>Hipodermis, fascia</td>
+                <td>Aβ (rápida)</td>
+                <td>Vibración 200–300 Hz, presión</td>
+                <td>Percepción de vibraciones finas, herramientas</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-card">
+          <h3>Nociceptores y termorreceptores</h3>
+          <table class="clinical-table">
+            <thead>
+              <tr><th>Tipo</th><th>Fibra</th><th>Estímulo</th><th>Implicación clínica</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Nociceptores mecánicos (AM)</strong></td>
+                <td>Aδ</td>
+                <td>Presión intensa, incisión</td>
+                <td>Dolor agudo, bien localizado ("primer dolor"). Activados en la fase inflamatoria post-quirúrgica.</td>
+              </tr>
+              <tr>
+                <td><strong>Nociceptores polimodales (CMH)</strong></td>
+                <td>C</td>
+                <td>Calor &gt; 45°C, mecánico intenso, mediadores inflamatorios</td>
+                <td>Dolor crónico, quemante, mal localizado ("segundo dolor"). Base del dolor en úlceras crónicas y cicatrices sensibilizadas.</td>
+              </tr>
+              <tr>
+                <td><strong>Termorreceptores al frío</strong></td>
+                <td>Aδ / C</td>
+                <td>15–30°C</td>
+                <td>Fundamento de la crioterapia analgésica. Activación de fibras A inhibe transmisión de fibras C (teoría de la compuerta).</td>
+              </tr>
+              <tr>
+                <td><strong>Termorreceptores al calor</strong></td>
+                <td>C</td>
+                <td>30–45°C</td>
+                <td>Termoterapia superficial: vasodilatación, analgesia, aumento de extensibilidad del tejido conectivo.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-card">
+          <h3>Alteraciones en cicatrices y neuropatías</h3>
+          <div class="info-block warning">
+            <h4>Sensibilización periférica en cicatrices</h4>
+            <p>La liberación crónica de mediadores inflamatorios (bradicinina, PGE2, NGF, sustancia P) en el tejido cicatricial genera un estado de sensibilización periférica: los nociceptores reducen su umbral de activación, produciendo alodinia (dolor ante estímulo no doloroso) e hiperalgesia. La evaluación sensorial cuantitativa (QST) diferencia entre hiposensibilidad (por pérdida de receptores) e hipersensibilidad (por sensibilización).</p>
+          </div>
+          <div class="info-block">
+            <h4>Neuropatía diabética y evaluación cutánea</h4>
+            <p>La pérdida de fibras C epidérmicas (demostrable mediante biopsia cutánea con anticuerpo anti-PGP9.5) precede a la sintomatología clínica en la neuropatía diabética. En fisioterapia, el test de monofilamento de 10 g (Semmes-Weinstein) es el estándar para la detección del déficit de protección sensorial en el pie diabético.</p>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /tabs-container -->
+
+    <div class="module-footer">
+      <div></div>
+      <div class="nav-links">
+        <a href="../index.html" class="btn-nav">&#8592; Inicio</a>
+        <a href="02-movimiento-corporal.html" class="btn-nav primary">Módulo 02 &#8594;</a>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="../js/tabs.js"></script>
+  <script>
+    initTabs('tabs-main');
+    initSkinDiagram();
+  </script>
+</body>
+</html>

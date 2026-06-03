@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 03 — Cirugía Plástica y Fisioterapia</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="logo">Tegumentario<span>·Fisiо</span></div>
+    <nav class="breadcrumb">
+      <a href="../index.html">Inicio</a>
+      <span class="sep">›</span>
+      <span class="current">Módulo 03 — Cirugía Plástica</span>
+    </nav>
+    <a href="../index.html" class="btn-back">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      Volver
+    </a>
+  </header>
+
+  <main class="module-layout">
+
+    <div class="module-header">
+      <span class="module-badge badge-3">Módulo 03</span>
+      <h1>Cirugía Plástica y Fisioterapia</h1>
+      <p class="module-desc">Abordaje fisioterapéutico perioperatorio en cirugías plásticas reconstructivas y estéticas con impacto en el sistema tegumentario y el movimiento.</p>
+    </div>
+
+    <div class="tabs-container" id="tabs-main">
+      <div class="tabs-nav">
+        <button class="tab-btn active">Evaluación Pre-quirúrgica</button>
+        <button class="tab-btn">Manejo Post-quirúrgico</button>
+        <button class="tab-btn">Tipos de Cirugía Relevantes</button>
+      </div>
+
+      <!-- ===== PESTAÑA 1: Pre-quirúrgico ===== -->
+      <div class="tab-panel active">
+        <h2>Evaluación Fisioterapéutica Pre-quirúrgica</h2>
+        <p>La evaluación preoperatoria permite establecer la línea de base funcional, identificar factores de riesgo que pueden comprometer la cicatrización y diseñar el protocolo postoperatorio individualizado.</p>
+
+        <div class="content-card">
+          <h3>Componentes de la evaluación pre-quirúrgica</h3>
+          <table class="clinical-table">
+            <thead>
+              <tr><th>Dominio</th><th>Herramienta / Método</th><th>Objetivo</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Estado cutáneo-cicatricial</strong></td>
+                <td>Inspección visual, escala VSS/POSAS, fotografía estandarizada</td>
+                <td>Documentar cicatrices previas, calidad de la piel, antecedentes cicatriciales patológicos.</td>
+              </tr>
+              <tr>
+                <td><strong>Rango articular y movilidad</strong></td>
+                <td>Goniometría, test de extensibilidad muscular</td>
+                <td>Establecer valores de referencia para comparar postoperatoriamente. Identificar retracciones preexistentes.</td>
+              </tr>
+              <tr>
+                <td><strong>Estado linfovascular</strong></td>
+                <td>Perímetros, volumetría de desplazamiento, ITB si indicado</td>
+                <td>Detectar edema, insuficiencia venosa o linfática preexistente que aumente el riesgo de complicaciones.</td>
+              </tr>
+              <tr>
+                <td><strong>Función muscular</strong></td>
+                <td>Test muscular manual, dinamometría</td>
+                <td>Evaluar la musculatura en la región quirúrgica. En abdominoplastias: valorar función del core.</td>
+              </tr>
+              <tr>
+                <td><strong>Factores de riesgo</strong></td>
+                <td>Entrevista clínica, historia de tabaquismo, IMC, DM, anticoagulantes</td>
+                <td>Identificar factores que comprometen la perfusión tisular y la cicatrización. Planificar intervención educativa.</td>
+              </tr>
+              <tr>
+                <td><strong>Función respiratoria</strong></td>
+                <td>Auscultación, espirometría básica si indicado</td>
+                <td>Relevante en cirugías de tórax, mama, abdomen. Entrenamiento inspiratorio preoperatorio reduce complicaciones.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-card">
+          <h3>Educación e intervención preoperatoria</h3>
+          <div class="two-col">
+            <div class="info-block">
+              <h4>Entrenamiento muscular anticipatorio</h4>
+              <p>Activación y fortalecimiento de musculatura que será debilitada o inmovilizada en el postoperatorio. Especialmente relevante en cirugías de extremidades superiores (manguito, mastectomía) y abdomen.</p>
+            </div>
+            <div class="info-block accent">
+              <h4>Higiene postural y posicionamiento</h4>
+              <p>Enseñanza de posiciones de protección de las suturas y zonas injertadas. Movilizaciones activas permitidas. Precauciones específicas según el procedimiento quirúrgico.</p>
+            </div>
+          </div>
+          <div class="info-block warning">
+            <h4>Manejo del tabaquismo</h4>
+            <p>El tabaquismo reduce el flujo microcirculatorio cutáneo (vasoconstricción por nicotina, carboxihemoglobina) y compromete la cicatrización. Se recomienda la abstinencia mínima de 4–6 semanas preoperatorias. El fisioterapeuta puede participar en la educación y derivación a programas de cesación.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== PESTAÑA 2: Post-quirúrgico ===== -->
+      <div class="tab-panel">
+        <h2>Manejo Post-quirúrgico por Fases</h2>
+        <p>Haz clic en cada fase para ver el protocolo de actuación fisioterapéutica.</p>
+
+        <div id="recovery-timeline" class="timeline">
+
+          <div class="timeline-item">
+            <button class="timeline-trigger">
+              <span class="timeline-dot"></span>
+              <div>
+                <div class="timeline-label">Fase I — Inflamatoria aguda</div>
+                <div class="timeline-sublabel">Días 0–5 postoperatorios</div>
+              </div>
+            </button>
+            <div class="timeline-content">
+              <p><strong>Objetivo principal:</strong> Control del edema, prevención de complicaciones respiratorias y tromboembólicas, protección de suturas y zonas injertadas.</p>
+              <ul>
+                <li><strong>Posicionamiento:</strong> Elevación del segmento intervenido. Postura protectora de suturas (evitar tensión sobre líneas de sutura).</li>
+                <li><strong>Movilización precoz:</strong> Movilizaciones activas de articulaciones no comprometidas para la activación de la bomba musculovenosa. Deambulación progresiva (según cirugía).</li>
+                <li><strong>Fisioterapia respiratoria:</strong> Esencial en cirugías de tórax/abdomen. Técnicas de expansión torácica, espirometría incentivada, tos funcional asistida.</li>
+                <li><strong>Control del edema:</strong> Compresión suave si está indicada y no contraindica la perfusión del colgajo o injerto. DLM suave en regiones adyacentes.</li>
+                <li><strong>Restricciones:</strong> No movilizar activamente la región quirúrgica. No realizar masaje cicatricial. No aplicar calor.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <button class="timeline-trigger">
+              <span class="timeline-dot"></span>
+              <div>
+                <div class="timeline-label">Fase II — Proliferativa</div>
+                <div class="timeline-sublabel">Días 5–21 postoperatorios</div>
+              </div>
+            </button>
+            <div class="timeline-content">
+              <p><strong>Objetivo principal:</strong> Recuperación progresiva del rango articular, prevención de la retracción cicatricial, inicio del trabajo sobre la cicatriz cuando esté cerrada.</p>
+              <ul>
+                <li><strong>Movilización articular:</strong> Ejercicios activo-asistidos y activos en el rango libre de dolor y sin tensión excesiva sobre la cicatriz. Progresión gradual.</li>
+                <li><strong>Cicatriz cerrada (sin costras ni dehiscencias):</strong> Inicio de masaje cicatricial suave con lubricante. Sensibilización táctil de la zona perilesional. Taping de descarga de cicatriz.</li>
+                <li><strong>Silicona tópica:</strong> Láminas o gel de silicona desde el cierre cutáneo completo. Uso nocturno mínimo 12 h/día.</li>
+                <li><strong>DLM:</strong> Drenaje linfático manual en regiones afectadas por el edema postoperatorio. Contraindicado sobre colgajos con vascularización comprometida.</li>
+                <li><strong>Fortalecimiento:</strong> Inicio del trabajo muscular isométrico en la región quirúrgica si la estructura lo permite.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <button class="timeline-trigger">
+              <span class="timeline-dot"></span>
+              <div>
+                <div class="timeline-label">Fase III — Remodelación temprana</div>
+                <div class="timeline-sublabel">Semanas 3–12</div>
+              </div>
+            </button>
+            <div class="timeline-content">
+              <p><strong>Objetivo principal:</strong> Restauración funcional completa, tratamiento activo de la cicatriz, integración en la cadena cinética.</p>
+              <ul>
+                <li><strong>Movilización de cicatriz:</strong> Masaje transverso profundo, liberación de adherencias, técnicas de deslizamiento multidireccional. Vacuoterapia sobre cicatriz madura.</li>
+                <li><strong>Ultrasonido terapéutico:</strong> 1 MHz (dermis), 3 MHz (epidermis). Modo pulsado 20%. Objetivo: remodelación del colágeno cicatricial.</li>
+                <li><strong>Presoterapia:</strong> En cicatrices hipertróficas, inicio de presoterapia con prendas a medida (20–25 mmHg). Uso 23 h/día durante 6–18 meses.</li>
+                <li><strong>Stretching:</strong> Elongación de la cadena miotegumentaria afectada. Trabajo en las posiciones que generen tensión máxima sobre la cicatriz.</li>
+                <li><strong>Reinserción funcional:</strong> Actividades progresivas orientadas a las demandas de la vida diaria y laboral del paciente.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <button class="timeline-trigger">
+              <span class="timeline-dot"></span>
+              <div>
+                <div class="timeline-label">Fase IV — Remodelación tardía y alta</div>
+                <div class="timeline-sublabel">Semanas 12 — 24 meses</div>
+              </div>
+            </button>
+            <div class="timeline-content">
+              <p><strong>Objetivo principal:</strong> Optimización de la calidad cicatricial, retorno a la actividad plena, prevención de recidivas funcionales.</p>
+              <ul>
+                <li><strong>Seguimiento cicatricial:</strong> Valoraciones periódicas con escala POSAS. Fotografía estandarizada de seguimiento.</li>
+                <li><strong>Programa domiciliario:</strong> Masaje cicatricial autoadministrado (paciente instruido), ejercicios de movilidad, uso de silicona y/o prendas compresivas.</li>
+                <li><strong>Desensibilización sensorial:</strong> En zonas con alodinia o hiposensibilidad, programa progresivo de estimulación táctil (texturas, vibraciones).</li>
+                <li><strong>Alta criterios:</strong> ROM normalizado, cicatriz madura (VSS ≤ 4), dolor EVA ≤ 2, función recuperada para las demandas específicas del paciente.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ===== PESTAÑA 3: Tipos de Cirugía ===== -->
+      <div class="tab-panel">
+        <h2>Tipos de Cirugía Plástica Relevantes en Fisioterapia</h2>
+
+        <div class="content-card">
+          <h3>Cirugías reconstructivas post-oncológicas</h3>
+          <table class="clinical-table">
+            <thead>
+              <tr><th>Procedimiento</th><th>Implicación fisioterapéutica</th><th>Complicaciones a vigilar</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Mastectomía + reconstrucción</strong> (prótesis, expansor, colgajo TRAM/DIEP/dorsal ancho)</td>
+                <td>Rehabilitación del hombro ipsilateral, prevención de linfedema de miembro superior, trabajo de cicatriz torácica/abdominal, recuperación postural.</td>
+                <td>Linfedema, dolor crónico posmastectomía (síndrome de Mondor), contractura capsular, adherencias.</td>
+              </tr>
+              <tr>
+                <td><strong>Colgajos libres en cabeza y cuello</strong></td>
+                <td>Rehabilitación deglutoria, foniatría, movilidad cervical, drenaje linfático facial.</td>
+                <td>Dehiscencia del colgajo, fístula, fibrosis cervical, trismo.</td>
+              </tr>
+              <tr>
+                <td><strong>Injertos y colgajos en extremidades</strong></td>
+                <td>Movilización precoz de articulaciones adyacentes, prevención de retracción sobre pliegues, presoterapia postinjerto.</td>
+                <td>Retracción periarticular, adherencia del injerto, infección, pérdida parcial del injerto.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-card">
+          <h3>Cirugías estéticas con relevancia fisioterapéutica</h3>
+          <table class="clinical-table">
+            <thead>
+              <tr><th>Procedimiento</th><th>Rol del fisioterapeuta</th><th>Consideraciones clave</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Abdominoplastia / lipoabdominoplastia</strong></td>
+                <td>Fisioterapia respiratoria, rehabilitación del core, drenaje linfático abdominal, masaje cicatricial de cicatriz suprapúbica y umbilical.</td>
+                <td>El despegamiento amplio de la piel abdominal genera edema y seroma. La postura en flexión de cadera inicial requiere trabajo de extensión progresiva.</td>
+              </tr>
+              <tr>
+                <td><strong>Liposucción</strong></td>
+                <td>Drenaje linfático manual desde el día 1-3 postoperatorio, presoterapia con prendas moldeadoras, masaje fibrinolítico en induración.</td>
+                <td>Las induración y la fibrosis de la interfaz dermis-grasa son complicaciones frecuentes. La presoterapia temprana y el DLM reducen su incidencia.</td>
+              </tr>
+              <tr>
+                <td><strong>Rinoplastia / cirugía facial</strong></td>
+                <td>Drenaje linfático facial suave, movilización del edema periorbital y malar, cuidado de cicatrices.</td>
+                <td>El edema facial puede persistir hasta 6-12 meses. El DLM facial acelera su resolución sin comprometer los resultados estéticos.</td>
+              </tr>
+              <tr>
+                <td><strong>Cirugía bariátrica + body contouring</strong></td>
+                <td>Rehabilitación postural integral, cicatrices múltiples extensas, trabajo del núcleo, reeducación de la marcha.</td>
+                <td>Alta complejidad cicatricial (braquioplastia, musculoplastia, torsoplastia). Alto riesgo de seroma y dehiscencia en pacientes con IMC previo elevado.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="content-card">
+          <h3>Cirugía de quemados</h3>
+          <p>La fisioterapia en el gran quemado es una especialidad dentro de la especialidad. Los principios se aplican a lo largo de todo el proceso, desde la UCI hasta la rehabilitación ambulatoria extendida.</p>
+          <div class="two-col">
+            <div class="info-block danger">
+              <h4>Fase aguda (UGQ)</h4>
+              <p>Movilización articular precoz (incluso con injertos), posicionamiento anticontractura, fisioterapia respiratoria, prevención de UPP, movilización del paciente crítico.</p>
+            </div>
+            <div class="info-block warning">
+              <h4>Fase de rehabilitación</h4>
+              <p>Cicatrices extensas, múltiples articulaciones comprometidas, presoterapia total body, ortesis anticontractura, reinserción sociolaboral. Trabajo psicomotriz e imagen corporal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /tabs-container -->
+
+    <div class="module-footer">
+      <div class="nav-links">
+        <a href="02-movimiento-corporal.html" class="btn-nav">&#8592; Módulo 02</a>
+      </div>
+      <div class="nav-links">
+        <a href="../index.html" class="btn-nav">Inicio</a>
+        <a href="04-campo-vascular.html" class="btn-nav primary">Módulo 04 &#8594;</a>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="../js/tabs.js"></script>
+  <script>
+    initTabs('tabs-main');
+    initTimeline('recovery-timeline');
+  </script>
+</body>
+</html>
